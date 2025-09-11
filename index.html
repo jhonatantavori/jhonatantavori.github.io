@@ -1,9 +1,908 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <title>Jhonatan Tavori @ TAU</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Graduate Student, Tel Aviv University">
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8H224XS5KX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8H224XS5KX');
+</script>
+
 <body>
+    <!-- ******HEADER****** --> 
+<header class="header">
+  <div class="container clearfix has-ribbon header-flex">
+    <div class="header-top">
+      <div class="profile-content">
+        <h1 class="name">Jhonatan Tavori</h1>
+        <h2 class="desc">PhD | Computer Science</h2>
+      </div><!--//profile-content-->
+    </div><!--//header-top-->
+    <nav class="header-nav">
+      <a class="btn btn-cta-primary" href="#about">About Me</a>
+      <a class="btn btn-cta-primary" href="#pubs">Publications</a>
+      <a class="btn btn-cta-primary" href="#cv">CV & Awards</a>
+      <a class="btn btn-cta-primary" href="#talks">Talks</a>
+      <a class="btn btn-cta-primary" href="#teaching">Teaching</a>
+    </nav><!--//header-nav-->
+  </div><!--//container-->
+</header><!--//header-->
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary">
+                 <section id="about" class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <img class="profile-image img-fluid float-right" src="assets/images/new_profile2.png" alt="profile image" />
 
+                        <h2 class="heading">About Me</h2>
+
+                        <div class="content">
+                            <p>I am a Postdoctoral Fellow at <a class="more-link" href="https://www.cs.tau.ac.il/" target="_blank">Columbia University</a>, working with <a class="more-link" href="https://www.cs.tau.ac.il/" target="_blank">Prof. Gil Zussman</a>.
+                            <br/>
+                            My work is supported by the <a class="more-link" href="https://www.cs.tau.ac.il/" target="_blank">Fulbright Postdoctoral Fellowship</a>, and <a class="more-link" href="https://www.cs.tau.ac.il/" target="_blank">Zuckerman STEM Leadership Postdcotroal Program</a>.
+                            <br/>
+                            My research interests center on networking and security, focusing on analyzing the performance of stochastic networks under attack in cloud and edge-cloud systems, microservices applications, and other distributed systems.
+                            <br/>
+                            I completed my PhD at the <a class="more-link" href="https://www.cs.tau.ac.il/" target="_blank">Blavatnik School of Computer Science and AI</a>, Tel Aviv Univesity, under the supervision of <a class="more-link" href="https://www.cs.tau.ac.il/~hanoch/" target="_blank">Prof. Hanoch Levy</a>. My PhD thesis title was: "Behivour of Networks under Malicious Behaviour".
+                        </p>
+                        </div><!--//content-->
+                <!--aside class="info aside section"-->
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:jhonatan.tavori@cs.tau.ac.il">jhonatan.tavori at cs.tau.ac.il</a></li>
+                                <!--li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://cs.tau.ac.il/~jhonatant</a></li-->
+                            </ul>
+                <!--/aside--><!--//aside-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <!--section id="blogs" class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Blogposts <small>(AKA Human Readable Results)</h2></h2>
+                        <div class="content">                                              
+                            <div class="item row">
+                                <a class="col-md-4 col-10 has-ribbon">
+                                <img class="img-fluid project-image rounded" src="assets/images/covid_ilu.jpg" alt="project name" />
+                                <div class="ribbon">
+                                        <div class="text">new</div>
+                                    </div>
+                                </a>
+                                <div class="desc col-md-8 col-10">
+                                    <h3 class="title">COVID-19</h3>
+                                    <p class="mb-2">SOON!</p>
+                                    <p><a class="more-link" href="#" target="_blank">Continue Reading</a></p>
+                                </div><!-/-//desc-->                                 
+                            <!--/div><!-/-//item-->
+                            <!--hr class="divider"/>
+                            <div class="item row">
+                             <a class="col-md-4 col-10 has-ribbon">                     
+                                <img class="img-fluid project-image rounded" src="assets/images/section5model2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-10">
+                                    <h3 class="title">Tornadoes In The Cloud</h3>
+                                    <p class="mb-2">Geographically distributed cloud networks are used by a variety of applications and services worldwide. As the demand for these services increases, their data centers form an attractive target for malicious attackers, aiming at harming the services. In this study we address sophisticated attackers who aim at causing maximal-damage to the service.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><!-/-i class="fas fa-external-link-alt"></i-/-> Continue Reading</a></p>
+                                <!-/-/div><!-/-//desc-->                          
+                            <!--/div><!-/-//item-->
+                            
+                        <!--/div><!-/-//content-->  
+                    <!--/div><!-/-//section-inner-->                
+                <!--/section><!-/-//section-->
+                
+
+                <section id="pubs" class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">
+                            Publications
+                        </h2>
+                                                    
+                        <div class="content">
+                  <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Self-Inflicted Retry Storms and Denial-of-Wallet in Microservices Cloud Applications</em> &nbsp <span class="badge badge-submission">In Submission</span><br/>
+                <span class="authors">Jhonatan Tavori, Anat Bremler-Barr, Hanoch Levy and Ofek Lavi</span><br/>
+                                <span class="publoc">In submission, 2025</span>
+                                </h3>
+                                <!--p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://ieeexplore.ieee.org/abstract/document/10229013" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    INFOCOM 2023</a>
+                                </p-->
+                            </div><!--//item-->
+          <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Performance Comparison of Service Mesh Frameworks: the MTLS Test Case</em> &nbsp <span class="badge badge-conference">Conference</span><br/>
+                <span class="authors">Anat Bremler Barr, Ofek Lavi, Yaniv Naor, Sanjeev Rampal and <strong>Jhonatan Tavori</strong></span><br/>
+                                <span class="publoc">To appear in NOMS 2025 - The 38th IEEE/IFIP Network Operations and Management Symposium</span>
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://deepness-lab.org/wp-content/uploads/2024/11/Service_Mesh_Project_technical_report.pdf" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    PDF (deepness-lab website)</a>
+                                </p>
+                            </div><!--//item-->
+                  <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Exploiting Miscoordination of Microservices in Tandem for Effective DDoS Attacks</em> &nbsp <span class="badge badge-conference">Conference</span><br/>
+                <span class="authors">Anat Bremler-Barr, Michael Czeizler, Hanoch Levy and Jhonatan Tavori</span><br/>
+                                <span class="publoc">IEEE INFOCOM 2024 - The 43nd IEEE International Conference on Computer Communications</span>
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://deepness-lab.org/wp-content/uploads/2024/01/INFOCOM2024_Tandem-10.pdf" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    PDF (deepness-lab website)</a>
+                                </p>
+                                <!--p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://ieeexplore.ieee.org/abstract/document/10229013" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    INFOCOM 2023</a>
+                                </p-->
+                            </div><!--//item-->
+                <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>The Cost of Retrying: Exploiting Retry-Mechanisms in Cloud Applications by DDoS Attacks</em> &nbsp <span class="badge badge-poster">Poster</span><br/>
+                                <span class="authors">Jhonatan Tavori, Anat Bremler-Barr and Hanoch Levy</span><br/>
+                                <span class="publoc">CoNEXT 2023 - The 19th International Conference on emerging Networking EXperiments and Technologies</span>
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://dl.acm.org/doi/pdf/10.1145/3624354.3630091" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    CoNEXT 2023 (PDF)</a>
+                                </p>
+                            </div><!--//item-->
+                <div class="item">
+                                <h3
+                                class="pub">
+                                <em>How to Attack and Congest a Network? Worst-Case Link-Targeted DDoS Attacks</em> &nbsp <span class="badge badge-poster">Poster</span><br/>
+                                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">CoNEXT 2023 - The 19th International Conference on emerging Networking EXperiments and Technologies</span>
+
+                                </h3>
+                                <p>
+                                    <a
+                                    class="more-link"
+                                    href="https://dl.acm.org/doi/pdf/10.1145/3624354.3630088" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    CoNEXT 2023 (PDF)</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>How to Attack and Congest Delay-Sensitive Applications on the Cloud</em> &nbsp <span class="badge badge-conference">Conference</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">IEEE INFOCOM 2023 - The 42nd IEEE International Conference on Computer Communications</span>
+                                
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://ieeexplore.ieee.org/abstract/document/10229013" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    INFOCOM 2023</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Resilience of Networks to Spreading Computer Viruses: Optimal Strategies for Anti-Virus Deployment</em> &nbsp <span class="badge badge-conference">Conference</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">NOMS 2023 - The 36th IEEE/IFIP Network Operations and Management Symposium (short-paper)</span>
+                                
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://ieeexplore.ieee.org/abstract/document/10154217" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                     NOMS 2023</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Stochastic Epidemic Spreading: Not All Super-Spreading Processes Are Born Equal, Neither All Lockdown Strategies</em> &nbsp <span class="badge badge-journal">Journal</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">Stochastic Models, 1-32, 2023.</span>
+                                
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://doi.org/10.1080/15326349.2023.2201329" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                     Stochastic Models (DOI)</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>On the Convexity of the Effective Reproduction Number</em> &nbsp <span class="badge badge-journal">Journal</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">Journal of Computational Biology 30, 7, 783-695, 2023.</span>
+                                
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://www.liebertpub.com/doi/abs/10.1089/cmb.2022.0371" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                     Journal of Computational Biology (DOI)</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Queueing-Network Based Applications Under Worst-case Attacks</em> &nbsp <span class="badge badge-workshop">Workshop</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">The 24th Workshop on MAthematical performance Modeling and Analysis (MAMA 2022).</span><br/>
+                                <span class="publoc">ACM SIGMETRICS Performance Evaluation Review 50, 2, 15-17, 2022.</span>
+                                
+                                </h3>
+                                <p>
+                                    <a class="more-link" href="https://doi.org/10.1145/3561074.3561080" target="_blank"><i class="fas fa-external-link-alt"></i>
+                                    ACM (DOI)</a>
+                                    &nbsp
+                                    &nbsp
+                                    <a 
+                                    class="more-link" 
+                                    href="https://www.sigmetrics.org/mama/2022/abstracts/Tavori.pdf" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                     MAMA 2022 (PDF)</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Continual Versus Occasional Spreading In Networks: Modeling Spreading Thresholds In Epidemic Processes</em> &nbsp <span class="badge badge-workshop">Workshop</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">The 23rd Workshop on MAthematical performance Modeling and Analysis (MAMA 2021).</span><br/>
+                                <span class="publoc">ACM SIGMETRICS Performance Evaluation Review 49, 2, 9-11, 2022.</span>
+                                
+                                </h3>
+                                <p>
+                                    <a class="more-link" href="https://dl.acm.org/doi/10.1145/3512798.3512803" target="_blank"><i class="fas fa-external-link-alt"></i>
+                                    ACM (DOI)</a>
+                                    &nbsp
+                                    &nbsp
+                                    <a 
+                                    class="more-link" 
+                                    href="https://www.sigmetrics.org/mama/2021/abstracts/Tavori.pdf" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    MAMA 2021 (PDF)</a>
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Tornadoes In The Cloud: Worst-Case Attacks on Distributed Resources Systems</em> &nbsp <span class="badge badge-conference">Conference</span><br/>
+                <span class="authors">Jhonatan Tavori and Hanoch Levy</span><br/>
+                                <span class="publoc">IEEE INFOCOM 2021 - The 40th IEEE International Conference on Computer Communications</span>
+                                
+                                </h3>
+                                <p>
+                                    <a 
+                                    class="more-link" 
+                                    href="https://infocom2021.ieee-infocom.org/accepted-paper-list-main-conference/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    INFOCOM 2021</a>
+                                </p>
+                            </div><!--//item-->
+                                                        
+                            <div class="item">
+                                <h3 
+                                class="pub">
+                                <em>Worst Case Attacks on Distributed Resources Systems</em> &nbsp <span class="badge badge-workshop">Workshop</span><br/>
+                <span class="authors">Hanoch Levy and Jhonatan Tavori</span><br/>
+                                <span class="publoc">The 22nd Workshop on MAthematical performance Modeling and Analysis (MAMA 2020).</span><br/>
+                                <span class="publoc">ACM SIGMETRICS Performance Evaluation Review 48, 2, 9-11, 2020.</span>
+                                </h3>
+                                <p>
+                                    <a class="more-link" href="https://dl.acm.org/doi/abs/10.1145/3439602.3439607" target="_blank"><i class="fas fa-external-link-alt"></i>
+                                    ACM (DOI)</a>
+                                    &nbsp
+                                    &nbsp
+                                    <a class="more-link" href="https://www.sigmetrics.org/mama/2020/abstracts/Levy.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>
+                                    <em>MAMA 2020</em> (PDF)</a>
+                                </p>
+                            </div><!--//item-->
+                            
+                            <!-- <a class="btn btn-cta-secondary " href="https://scholar.google.com/citations?user=yqoFlhUAAAAJ&hl=en">Google Scholar <i class="fas fa-chevron-right pt-1"></i></a> -->
+                            <!-- <a class="btn btn-cta-secondary " href="https://dblp.org/pid/280/0881.html">DBLP <i class="fas fa-chevron-right pt-1"></i></a> -->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+   
+                <section id="cv" class="cv section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 id="aaaa" class="heading">CV & Awards</h2>
+                        <div class="content">
+                <div class="item">
+                                <h3 
+                                    class="cvitem">2025 -
+                                    <span class="title">The Blavatnik Prizes for Outstanding Israeli Doctoral Fellows in Computer Science</span>
+                                    <span class="place">.</a></span> 
+                                </h3>
+                            </div><!--//item-->
+                <div class="item">
+                                <h3 
+                                    class="cvitem">2025 -
+                                    <span class="title">The Zuckerman Postdoctoral Scholarship</span>
+                                    <span class="place">.</a></span> 
+                                </h3>
+                            </div><!--//item-->
+                <div class="item">
+                                <h3
+                                    class="cvitem">2025 -
+                                    <span class="title">The Fulbright Postcotoral Fellowship</span>
+                                    <span class="place">.</a></span>
+                                </h3>
+                            </div><!--//item-->
+                <div class="item">
+                                <h3 
+                                    class="cvitem">2025 - Selected to 
+                                    <span class="title">TAU "100 List" for Excellence in Teaching,</span>
+                                    <span class="place">Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2025 - 
+                                    <span class="title">Innovation Scholarship,</span>
+                                    <span class="place">Shlomo Smeltzer Institute for Smart Transportation</a></span> 
+                                </h3>
+                            </div><!--//item-->  
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2024 - 
+                                    <span class="title">The Deutsch Prize,</span>
+                                    <span class="place">Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2024 - 
+                                    <span class="title">Next Generation Internet (NGI) Enrichers Transatlantic Fellowship Program, </span>
+                                    <span class="place">Selected to the 2024 cohort</a></span> 
+                                </h3>
+                            </div><!--//item--> 
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2023 - 
+                                    <span class="title">Innovation Scholarship,</span>
+                                    <span class="place">Shlomo Smeltzer Institute for Smart Transportation</a></span> 
+                                </h3>
+                            </div><!--//item-->      
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2021 - 
+                                    <span class="title">Selected to deliver the student address at the Master's Graduation Ceremony,</span>
+                                    <span class="place">Faculty of Exact Sciences, Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2017 - 2020 
+                                    <span class="title">Computer Science M.Sc., <i>Magna Cum Laude</i> (GPA 95), </span>
+                                    <span class="place">Tel Aviv University
+                                        <br/>
+                                        Supervised by <em>Prof. Hanoch Levy.</em> 
+                                        <br/>
+                                      Thesis Title: <em>Tornadoes In The Cloud: Worst-Case Attacks on Distributed Resources Systems.</em> </span>
+                                </h3>
+                            </div><!--//item-->                          
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2019 -  
+                                    <span class="title">Outstanding Teaching Assistant Award, </span>
+                                    <span class="place">School of Computer Science, Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2018 -  
+                                    <span class="title">Award for Excellence Academic Achievements, </span>
+                                    <span class="place">School of Computer Science, Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2017-2018 -  
+                                    <span class="title">Excellence scholarship for Full-Time students, </span>
+                                    <span class="place">School of Computer Science, Tel Aviv University</a></span> 
+                                </h3>
+                            </div><!--//item-->       
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2018 - 
+                                    <span class="title">Selected to deliver the student address at the Bachelor's Graduation Ceremony,</span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                            
+                            <!--div class="item">
+                                <h3 
+                                    class="cvitem">Fall 2017, Fall 2018, Spring 2019 -  
+                                    <span class="title">Teaching Assistant, Communication Networks (3068.3030)</span>
+                                    <span class="place">Tel Aviv University</a></span> 
+                                </h3>
+                            </div--><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2013 - 2017 
+                                    <span class="title">Computer Science B.Sc., <i>Summa Cum Laude</i> (GPA 98), </span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                          
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2017 -  
+                                    <span class="title">President's List, </span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2016 -  
+                                    <span class="title">President's List, </span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2015 -  
+                                    <span class="title">President's List, </span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                         
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2014 -  
+                                    <span class="title">President's List, </span>
+                                    <span class="place">The Open University of Israel</a></span> 
+                                </h3>
+                            </div><!--//item-->                 
+                            <div class="item">
+                                <h3 
+                                    class="cvitem">2014, 2015, 2016, 2017 -  
+                                    <span class="title">Academy In High School Award</span>
+                                    <span class="place">Ministry of Education, State of Israel award</a></span> 
+                                </h3>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section id="talks" class="cv section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 id="aaaa" class="heading">Talks</h2>
+                        <div class="content">           
+                            <div class="item">
+                <h3 class="cvitem">
+                                    <span class="date">Jun 09, 2025</span>
+                                    <span class="title">
+                        <a class="more-link" href="https://www.ims.tau.ac.il/Tal/Syllabus/Syllabus_L.aspx?lang=EN&course=0368425201&year=2024" target="_blank">Advanced Topics in Computer Networks</a>
+                                    </span>
+                                    <span class="place">TAU, Tel Aviv, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                          "Denial-of-Wallet in Cloud-Native Applications (Guest Lecture)"
+                                    </span>
+                                </h3>
+                <h3 class="cvitem">
+                                    <span class="date">May 19, 2025</span>
+                                    <span class="title">
+                                        <a class="more-link" href="https://young.academy.ac.il/Index/Entry.aspx?nodeId=741&entryId=427" target="_blank">The Israel Young Academy's ACADEMIX 2025</a>
+                                    </span>
+                    <span class="place">Jerusalem, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                          "Worst Case Attacks: Resilient Management of Distributed Cloud Networks"
+                                    </span>
+                                </h3>
+                                <h3 class="cvitem">
+                                    <span class="date">May 08, 2025</span>
+                                    <span class="title">
+                                        <a class="more-link" href="https://sites.google.com/view/israelinetworkingday2025/program" target="_blank">Israeli Networking Day 2025</a>
+                                    </span>
+                                    <span class="place">TAU, Tel Aviv, Israel</span>
+                                    <br>
+                                    <span class="details">
+                      "The Cost of Retrying: Operation and Malicious Exploitation of Retry Mechanisms in Cloud Applications"
+                                    </span>
+                                </h3>
+                <h3 class="cvitem">
+                                    <span class="date">May 06, 2025</span>
+                                    <span class="title">
+                                        <a class="more-link" href="https://www.orsis.org.il/conferences/recent-orsis-conferences" target="_blank">ORSIS 2025</a>
+                                    </span>
+                                    <span class="place">TAU, Tel Aviv, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        "The Cost of Retrying: Operation and Malicious Exploitation of Retry Mechanisms in Cloud Applications"
+                                    </span>
+                                </h3>
+        <h3 
+                    class="cvitem">
+                                    <span class="date">Nov 21, 2024</span>
+                                    <span class="title">
+                                        <a class="more-link" href="https://www.cs.ucla.edu/upcoming-events/cs-201-jhonatan-tavori-tel-aviv-university/" target="_blank">UCLA CS Seminar</a>
+                                    </span>
+                                    <span class="place">Los Angeles, CA, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Where Did My Money Go? Self-Inflicted Denial-of-Wallet in Microservices Cloud Applications”
+                                    </span>
+                                </h3>
+                <h3
+                                    class="cvitem">
+                                    <span class="date">Nov 19, 2024</span>
+                                    <span class="title"> <a class="more-link" href="https://conferences.sigcomm.org/hotnets/2024/" target="_blank"><i class=""></i>
+                                    ACM SIGCOMM HotNets Workshop 2024</a></span>
+                                    <span class="place">
+                                    UC Irvine, CA, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Cloud Management Under Worst-Case Attack Scenarios”
+                                    </span>
+                                </h3>
+                <h3 
+                                    class="cvitem">
+                                    <span class="date">Sep 12, 2024</span>
+                                    <span class="title"> <a class="more-link" href="" target="_blank"><i class=""></i>
+                                    Columbia University Systems Seminar</a></span>
+                                    <span class="place">
+                                    New York, NY, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “On the Miscoordination of Microservices in Cloud Applications”
+                                    </span>
+                                </h3>
+                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 21, 2024</span>
+                                    <span class="title"> <a class="more-link" href="https://infocom2023.ieee-infocom.org/program/accepted-paper-list-main-conference" target="_blank"><i class=""></i>
+                                    IEEE INFOCOM 2024</a></span>
+                                    <span class="place">
+                                    Vancouver, BC, Canada</span>
+                                    <br>
+                                    <span class="details">
+                                        “Exploiting Miscoordination of Microservices in Cloud Applications by DDoS Attacks”.
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 13, 2024</span>
+                                    <span class="title"> <a class="more-link" href="" target="_blank"><i class=""></i>
+                                    Princeton University Networking Group Seminar</a></span>
+                                    <span class="place">
+                                    Princeton, NJ, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Exploiting Miscoordination of Microservices in Cloud Applications by DDoS Attacks”.
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Apr 16, 2024</span>
+                                    <span class="title"> <a class="more-link"><i class=""></i>
+                                    Georgetown University Security Group Seminar</a></span>
+                                    <span class="place">
+                                    Washington, DC, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Exploiting Miscoordination of Microservices in Cloud Applications by DDoS Attacks”.
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Feb 25, 2024</span>
+                                    <span class="title"> <a class="more-link" href="https://www.ims.tau.ac.il/Tal/Syllabus/Syllabus_L.aspx?lang=EN&course=0368500201&year=2022" target="_blank"><i class=""></i>
+                                    TAU Security Seminar</a></span>
+                                    <span class="place">
+                                    Tel Aviv University, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “Worst-Case Attacks on Cloud-based Services: Economic and Performance Effects”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Jun 06, 2023</span>
+                                    <span class="title"> <a class="more-link" href="https://www.ims.tau.ac.il/Tal/Syllabus/Syllabus_L.aspx?lang=EN&course=0368500201&year=2022" target="_blank"><i class=""></i>
+                                    TAU Networking Seminar</a></span>
+                                    <span class="place">
+                                    Tel Aviv University, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “Worst-Case Attacks on Distributed and Delay-Sensitive Cloud Applications”.
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 17, 2023</span>
+                                    <span class="title"> <a class="more-link" href="https://infocom2023.ieee-infocom.org/program/accepted-paper-list-main-conference" target="_blank"><i class=""></i>
+                                    IEEE INFOCOM 2023</a></span>
+                                    <span class="place">
+                                    New York, NY, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “How to Attack and Congest Delay-Sensitive Applications on the Cloud”.
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 09, 2023</span>
+                                    <span class="title"> <a class="more-link" href="https://noms2023.ieee-noms.org/program" target="_blank"><i class=""></i>
+                                    IEEE/IFIP NOMS 2023</a></span>
+                                    <span class="place">
+                                    Miami, FL, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Resilience of Networks to Spreading Computer Viruses: Optimal Anti-Virus Deployment”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 02, 2023</span>
+                                    <span class="title"> <a class="more-link" href="https://sites.google.com/view/israelinetworkingday2023/abstracts?authuser=0#h.d67tj3bf97b9" target="_blank"><i class=""></i>
+                                    Israeli Networking Day 2023</a></span>
+                                    <span class="place">
+                                    Toga Networks, Hod Hasharon, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “How to Attack and Congest Delay-Sensitive Applications on the Cloud”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 01, 2023</span>
+                                    <span class="title"> <a class="more-link" href="https://www.orsis.org.il/conferences" target="_blank"><i class=""></i>
+                                    ORSIS 2023</a></span>
+                                    <span class="place">
+                                    Tel Aviv, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “How to Attack and Congest Delay-Sensitive Applications on the Cloud”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Aug 10, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://www.usenix.org/conference/usenixsecurity22/poster-session" target="_blank"><i class=""></i>
+                                    31th USENIX Security Symposium (poster)</a></span>
+                                    <span class="place">
+                                    Boston, MA, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “A Queueing Approach for Vehicular Traffic Networks Sybil Attacks”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Aug 08, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://acm-bcb.org/2022/index.php?page=toc" target="_blank"><i class=""></i>
+                                    ACM-BCB 2022 (poster)</a></span>
+                                    <span class="place">
+                                    Chicago, IL, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “Greedy and Speedy: Optimal Vaccination Strategies in Multi-Region Heterogeneous Networks”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Aug 07, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://cnbmac.org/cnb-mac-2022-schedule/" target="_blank"><i class=""></i>
+                                    CNB-MAC 2022</a></span>
+                                    <span class="place">
+                                    Chicago, IL, USA</span>
+                                    <br>
+                                    <span class="details">
+                                        “On The Convexity Of The Effective Reproduction Number”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Jun 19, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://sites.google.com/view/israelinetworkingday2022" target="_blank"><i class=""></i>
+                                    Israeli Networking Day 2022</a></span>
+                                    <span class="place">
+                                    Google R&D Center, Tel Aviv, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “Tornadoes In The Cloud: Worst-Case Attacks on Distributed Resources Systems”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Jun 06, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://www.sigmetrics.org/mama/program.shtml" target="_blank"><i class=""></i>
+                                    ACM SIGMETRICS MAMA 2022</a></span>
+                                    <span class="place">
+                                    Mumbai, India & Online</span>
+                                    <br>
+                                    <span class="details">
+                                        “Queueing-Network Based Applications Under Worst-case Attacks”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 31, 2022</span>
+                                    <span class="title"> <a class="more-link" href="https://www.orsis.org.il/conferences" target="_blank"><i class=""></i>
+                                    ORSIS 2022</a></span>
+                                    <span class="place">
+                                    Jerusalem, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “Greedy and Speedy: Optimal Vaccination Strategies in Multi-Region Heterogeneous Networks”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Dec 01, 2021</span>
+                                    <span class="title"> <a class="more-link" href="https://www.elsevier.com/events/conferences/international-conference-on-infectious-disease-dynamics" target="_blank"><i class=""></i>
+                                    Epidemics 8</a></span>
+                                    <span class="place">
+                                    Bologna, Italy (Online)</span>
+                                    <br>
+                                    <span class="details">
+                                       “Mathematical modelling of COVID-19 infection heterogeneity: Not all lockdowns are born equal, neither are vaccination policies”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Oct 06, 2021</span>
+                                    <span class="title"> <a class="more-link" href="https://sites.google.com/view/israelinetworkingday2021" target="_blank"><i class=""></i>
+                                    Israeli Networking Day 2021</a></span>
+                                    <span class="place">
+                                    Ben Gurion University of the Negev, Israel</span>
+                                    <br>
+                                    <span class="details">
+                                        “Stochastic Epidemic Processes in Networks: The Effects of Spreading Heterogeneity and Control Mechanisms”                               
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Jun 14, 2021</span>
+                                    <span class="title"> <a class="more-link" href="https://www.sigmetrics.org/mama/2021/program.shtml" target="_blank"><i class=""></i>
+                                    ACM SIGMETRICS MAMA 2021</a></span>
+                                    <span class="place">
+                                    Beijing, China (Online)</span>
+                                    <br>
+                                    <span class="details">
+                                        “Continual Versus Occasional Spreading In Networks: Modeling Spreading Thresholds In Epidemic Processes”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">May 13, 2021</span>
+                                    <span class="title"> <a class="more-link" href="https://infocom2021.ieee-infocom.org/accepted-paper-list-main-conference" target="_blank"><i class=""></i>
+                                    IEEE INFOCOM 2021</a></span>
+                                    <span class="place">
+                                    Vancouver, BC, Canada (Online)</span>
+                                    <br>
+                                    <span class="details">
+                                        “Tornadoes In The Cloud: Worst-Case Attacks on Distributed Resources Systems”
+                                    </span>
+                                </h3>
+                                <h3 
+                                    class="cvitem">
+                                    <span class="date">Jun 08, 2020</span>
+                                    <span class="title"> <a class="more-link" href="https://www.sigmetrics.org/mama/2020/program.shtml" target="_blank"><i class=""></i>
+                                    ACM SIGMETRICS MAMA 2020</a></span>
+                                    <span class="place">
+                                    Boston, MA, USA (Online)</span>
+                                    <br>
+                                    <span class="details">
+                                       “Worst Case Attacks on Distributed Resources Systems”
+                                    </span>
+                                </h3>
+                            </div><!--//item-->                          
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+
+                <section id="teaching" class="teach section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 id="aaaa" class="heading2">Teaching</h2>
+                        <div class="content">                                                                   
+                            <div class="item">
+                                <h3 
+                                    class="teachitem">
+                                    <span class="title">Communication Networks (0368-3030)</span>
+                                    <span class="place"><br/>School of Computer Science, Tel Aviv University<br/>Teaching Assitant</a></span> 
+                                 
+                                </h3><a class="more-link" href="https://moodle.tau.ac.il/2024/course/view.php?id=368303001" target="_blank"><i class=""></i>
+                                    &nbsp - &nbsp Fall 2024</a> <br/>
+                                <a class="more-link" href="https://moodle.tau.ac.il/2018/course/view.php?id=368303001" target="_blank"><i class=""></i>
+                                    &nbsp - &nbsp Spring 2019</a> <br/>
+                                    <a class="more-link" href="https://moodle.tau.ac.il/2018/course/view.php?id=368303001" target="_blank"><i class=""></i>
+                                    &nbsp - &nbsp Fall 2017/18</a><br/>
+                                    <a class="more-link" href="https://moodle.tau.ac.il/2018/course/view.php?id=368303001" target="_blank"><i class=""></i>
+                                    &nbsp - &nbsp Fall 2016/17</a>                                     
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+
+
+<section id="two-images" class="two-images-section section">
+    <div class="section-inner shadow-sm rounded">
+        <div class="two-images-container">
+            <img src="assets/images/BSC.png" alt="Left Image" class="two-image left-image">
+            <img src="assets/images/master.JPG" alt="Center Image" class="two-image center-image">
+            <img src="assets/images/PhD.JPG" alt="Right Image" class="two-image right-image">
+        </div>
+    </div>
+</section>
+
+
+            </div><!--//primary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
