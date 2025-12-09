@@ -146,6 +146,20 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
   background-clip: padding-box;
 }
 
+.badge-best-paper-award {
+  background: #ffff00;
+  font-size: 14px;
+  color: #000000;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
 .badge-submission {
   background: #0526de;
   font-size: 12px;
