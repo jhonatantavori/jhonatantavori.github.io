@@ -610,6 +610,13 @@ a.dotted-link:hover {
   font-style: bold;
 }
 
+.cv .item .cvitem .titlemain {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: bold;
+  color: #000000;
+}
+
 .cv .item .cvitem .date {
     display: inline-block;
     width: 100px; /* Adjust this value as needed */
