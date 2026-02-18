@@ -172,10 +172,10 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-}badge-best-talk-award
+}
 
 .badge-submission {
-  background: #0526de;
+  background: #393a40;
   font-size: 12px;
   color: #fff;
   -webkit-border-radius: 2px;
